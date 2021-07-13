@@ -1,4 +1,6 @@
-name = "pooja"
+puts "Enter the name you want to reverse"
+
+name = gets
 b = name.split('')	
 c= name.size
 puts "before reverse = #{name}, after split =  #{b}, alphabet count = #{c}"
