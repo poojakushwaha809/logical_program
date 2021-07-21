@@ -12,10 +12,11 @@ if (num==0)
 else
 	
 	i=2
-	if i<num
-		if (num%i == 0)
+	while(i<num)
+		if (num%i==0)
 			count+=1
 		end
+		i+=1
 	end
 	
 end
@@ -23,4 +24,5 @@ end
 		puts "#{num} is not a prime number"
 	else
 		puts "#{num} is a prime number"
-	end 
+	end
+
